@@ -2,4 +2,4 @@
 Servicios inteligentes SIS
 
 Este repositorio es un proyecto personal para probar nuevas habilidades.
-this proyecto is personal for test new skills and tools.
+this repository is a personal proyect for test new skills and tools.
