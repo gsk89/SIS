@@ -151,11 +151,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu__link:hover {
+    background: #ffffff;
+    color: black;
+}
+
+.menu__link--select1 {
     background: #138d75;
 }
 
-.menu__link--select {
-    background: #138d75;
+.menu__link--select2 {
+    background: #f724f7;
+}
+
+.menu__link--select3 {
+    background: #17a504;
+}
+
+.menu__link--select4 {
+    background: #b85900;
+}
+
+.menu__link--select5 {
+    background: #b80000;
 }
 
 .mostrar {
@@ -202,8 +219,8 @@ h1, h2, h3, h4, h5, h6 {
 /*Estilos principales de la pagina*/
 
 .group--color .container {
-    background: #138d75;
-    color: white;
+    background: #ffd000;
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
 }
@@ -246,17 +263,17 @@ h1, h2, h3, h4, h5, h6 {
     margin: 30px;
 }
 
-.today-special .column {
+.skills .column {
     margin-bottom: 30px;
     text-align: center;
 }
 
-.today-special__img{
+.skills__img{
     margin: auto;
     max-width: 350px;
 }
 
-.today-special__title {
+.skills__title {
     text-align: center;
     font-size: 1.3em;
     padding-top: 10px;
@@ -352,12 +369,12 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
     }
 
-    .today-special .column {
+    .skills .column {
         border: 5px solid #C1124B;
         padding: 5px;
     }
 
-    .today-special__img {
+    .skills__img {
         height: 200px;
         object-fit: cover;
     }
@@ -452,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
         line-height: 40px;
     }
 
-    .today-special__title {
+    .skills__title {
         font-size: 1.4em;
     }
 
@@ -477,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
         object-fit: cover;
     }
 
-    .today-special__img {
+    .skills__img {
         height: 300px;
     }
 }
