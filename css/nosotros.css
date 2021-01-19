@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "edunline";
+    src: url(../fonts/edunline.ttf)
+}
+
 .our-team {
     text-align: center;
     margin-bottom: 20px;
@@ -11,7 +16,7 @@
     font-family: 'Glitch';
     color: #138d75;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
@@ -25,7 +30,8 @@
 }
 
 .our-team__txt {
-    padding: 10px;
+    font-size: 22px;
+    padding: 1px;
     text-align: justify;
 }
 

@@ -10,6 +10,11 @@
     src: url(../fonts/edunline.ttf)
 }
 
+@font-face {
+    font-family: "Wolf";
+    src: url(../fonts/Wolf.ttf)
+}
+
 * {
     box-sizing: border-box;
 
@@ -263,6 +268,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 30px;
 }
 
+.group__title2 {
+    font-family: 'Wolf';
+    text-align: center;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 30px;
+}
+
+
 .skills .column {
     margin-bottom: 30px;
     text-align: center;
@@ -337,11 +351,11 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .column--50 {
-        width: 49%;
+        width: 50%;
     }
 
     .column--33 {
-        width: 32%;
+        width: 33%;
     }
 
     .main-nav {
