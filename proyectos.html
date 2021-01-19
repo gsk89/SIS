@@ -6,9 +6,16 @@
     <title>Servicios Inteligentes SIS</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/proyectos.css">
 
 </head>
 <body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
     <header class="main-header">
         <div class="container container--flex">
             <div class="logo-container column column--50">
@@ -29,7 +36,7 @@
             <span class="icon-menu" id="btnmenu"></span>
             <ul class="menu" id="menu">
                 <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
-                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">¿Quien soy?</a></li>
                 <li class="menu__item"><a href="proyectos.html" class="menu__link menu__link--select3">Proyectos</a></li>
                 <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
                 <li class="menu__item"><a href="blog.html" class="menu__link">Blog</a></li>
@@ -47,32 +54,27 @@
     </section>
     
     <main class="main">
-        <section class="group group--color">
-            <div class="container">
-                <h2 class="main__title">Si lo imaginas lo puedes crear</h2>
-                <p class="main__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia 
-                    tenetur modi ea recusandae amet! Accusantium laboriosam eaque similique corporis 
-                    facilis doloribus architecto possimus consequuntur molestias expedita, perferendis 
-                    sequi ipsum qui.
-                </p>
-            </div>
-        </section>
-
-        <section class="group main__about__description">
+        <div class="group gallery">
+            <h2 class="group__title">Proyectos realizados</h2>
             <div class="container container--flex">
-                <div class="column column--50">
-                    <img src="img/Writer.jpg" alt="">
+                <div class="column column--50-25">
+                    <img src="img/java.jpeg" alt="" class="gallery__img">
+                    <img src="img/Circuit.jpg" alt="" class="gallery__img">
                 </div>
-                <div class="column column--50">
-                    <h3 class="column__title">Expertise in TI Solutions</h3>
-                    <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Odit voluptas nulla saepe quasi neque expedita vero. Facere perferendis eius 
-                        ratione a molestias. Eveniet quisquam quasi, perferendis incidunt ea non et!
-                    </p>
-                    <a href="" class="btn btn--contact">Contact</a>
+                <div class="column column--50-25">
+                    <img src="img/cisco.jpg" alt="" class="gallery__img">
+                    <img src="img/gns3.png" alt="" class="gallery__img">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/Tux.png" alt="" class="gallery__img">
+                    <img src="img/arduino.jpeg" alt="" class="gallery__img">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/php.png" alt="" class="gallery__img">
+                    <img src="img/ensamblador.gif" alt="" class="gallery__img">
                 </div>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer class="main-footer">
@@ -102,5 +104,6 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
