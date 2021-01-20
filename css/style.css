@@ -17,7 +17,6 @@
 
 * {
     box-sizing: border-box;
-
 }
 
 body {
@@ -259,6 +258,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     padding: 10px;
     margin: 10px auto;
+    border-radius: 15%;
 }
 
 .group__title {
