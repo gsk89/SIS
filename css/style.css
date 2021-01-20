@@ -242,7 +242,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column__title {
-    font-size: 1.3em;
+    font-size: 20px;
+    font-family: 'Glitch';
 }
 
 .main__about__description .column:nth-child(2) {

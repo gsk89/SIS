@@ -8,6 +8,18 @@
     src: url(../fonts/Wolf.ttf);
 }
 
+.contact-information {
+    padding: 10px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #138d75;
+}
+
+.contact-information .column__title {
+    font-family: 'Wolf';
+    font-weight: 100;
+}
+
 .our-team {
     text-align: center;
     margin-bottom: 20px;
@@ -25,7 +37,7 @@
     margin-bottom: 10px;
 }
 
-.out-team__title2 {
+.Nombre__personal {
     font-family: 'Wolf';
     font-size: 50px;
 }
